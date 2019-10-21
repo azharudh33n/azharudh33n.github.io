@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+  
+ 
   <link rel="icon" href="#" type="image/png">
   
  
@@ -30,10 +33,6 @@
 </head>
 
 <body>
-  <div id="not_supported">
-    sorry but THE mobile version doesn't look good right now, <br />
-    check back later :p
-  </div>
   <div id="video">
     <video src="https://i.imgur.com/VpjGwVT.mp4" autoplay loop muted></video>
   </div>
@@ -58,7 +57,6 @@
     <button onclick="window.location = 'mailto:azharudh33n@gmail.com'">Contact Me</button>
     <footer>
       <ul>
-        <li style="float:left"><b id="distance">0.00</b> m</li>
         <li style="margin-right:10px;">
           <a href="https://twitter.com/azharudh33n"><i class="fab fa-twitter"></i></a>
         </li>
@@ -74,13 +72,6 @@
       </ul>
     </footer>
   </div>
-  <script type="text/javascript">
-    var origin = 0.00;
-    setInterval(function () {
-      document.querySelector("#distance").innerHTML = Math.ceil(origin);
-      origin += 1.9;
-    }, 100)
-  </script>
 </body>
 
 </html>

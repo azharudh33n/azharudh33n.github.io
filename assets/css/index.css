@@ -156,17 +156,6 @@ button:focus {
   outline: 0;
 }
 
-#not_supported {
-  color: #fff;
-  width: 92vw;
-  padding: 0 4vw;
-  height: 100vh;
-  font-family: Coyote, sans-serif;
-  color: #fff;
-  flex-direction: column;
-  justify-content: center;
-  display: none;
-}
 
 a:focus {
   outline: none;
@@ -182,20 +171,17 @@ a:focus {
   background: #fff;
 }
 
-@media (max-width: 1800px) {
-  #main button {
-    width: 16vw;
-  }
+/*Responsive */
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
 
-@media (max-width: 950px) {
-
-  #main,
-  #video {
-    display: none;
-  }
-
-  #not_supported {
-    display: flex;
-  }
-}
+img { max-width: 100%; }
