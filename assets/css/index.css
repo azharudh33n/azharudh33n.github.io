@@ -1,6 +1,6 @@
 @font-face {
   font-family: Coyote;
-  src: url(../font/Coyote.ttf);
+  src: url(../font/Coyote.otf);
 }
 
 body {
@@ -23,7 +23,7 @@ header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 1vw;
 }
 
 header li {
@@ -77,12 +77,12 @@ header li img {
 
 #main div {
   margin: 30px 0;
-  font-size: 55px;
+  font-size: 3.5vw;
 }
 
 #main button {
   font-family: Coyote, sans-serif;
-  font-size: 18px;
+  font-size: 1.1vw;
   padding: 12px 2vw;
   border: 2px solid #ff3259;
   border-radius: 50px;
@@ -106,7 +106,7 @@ header li img {
 }
 
 #main span {
-  font-size: 19px;
+  font-size: 1.2vw;
   color: #c8c8c8;
 }
 
@@ -121,7 +121,7 @@ footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 0.9vw;
 }
 
 footer li {
@@ -135,7 +135,7 @@ footer li a {
   padding: 10px 10px;
   margin-left: 3vw;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1vw;
   position: relative;
 }
 
